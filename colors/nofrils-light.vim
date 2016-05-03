@@ -39,7 +39,8 @@ hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE
 hi CursorIM term=NONE cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
 hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
 hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
-hi Cursor term=NONE cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
+"hi Cursor term=NONE cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
+hi Cursor term=NONE cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#FFFFFF guibg=#000000
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
@@ -130,6 +131,7 @@ hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NO
 if g:nofrils_strbackgrounds
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+    "hi String		term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=NONE
 end
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
