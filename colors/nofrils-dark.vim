@@ -5,6 +5,10 @@
 " License: OSI approved MIT license
 " Modified: 2016 Feb 26
 
+
+syn region pythonDocstring  start=+^\s*[uU]\?[rR]\?'''+ end=+'''+ keepend excludenl contains=pythonEscape,@Spell,pythonDoctest,pythonDocTest2,pythonSpaceError
+hi def link pythonDocstring pythonComment
+
 hi clear
 if exists("syntax_on")
     syntax reset
